@@ -1,20 +1,21 @@
 {
-  "name": "serial-communication",
+  "name": "pir-sensor",
   "version": "0.0.1",
-  "description": "Node.js to Arduino Communication",
+  "description": "PIR Sensor",
   "main": "app.js",
   "author": "Chyld Medford",
-  "homepage": "https://github.com/node-robot/serial-communication",
+  "homepage": "https://github.com/node-robot/pir-sensor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-robot/serial-communication.git"
+    "url": "https://github.com/node-robot/pir-sensor.git"
   },
   "bugs": {
-    "url": "https://github.com/node-robot/serial-communication/issues"
+    "url": "https://github.com/node-robot/pir-sensor/issues"
   },
   "dependencies": {
-    "chalk":       "0.4.0",
-    "prompt":      "0.2.13",
-    "serialport":  "1.4.0"
+    "chalk": "0.4.0",
+    "lodash": "^2.4.1",
+    "prompt": "0.2.13",
+    "serialport": "1.4.0"
   }
 }
