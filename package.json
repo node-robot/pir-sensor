@@ -1,0 +1,20 @@
+{
+  "name": "serial-communication",
+  "version": "0.0.1",
+  "description": "Node.js to Arduino Communication",
+  "main": "app.js",
+  "author": "Chyld Medford",
+  "homepage": "https://github.com/node-robot/serial-communication",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-robot/serial-communication.git"
+  },
+  "bugs": {
+    "url": "https://github.com/node-robot/serial-communication/issues"
+  },
+  "dependencies": {
+    "chalk":       "0.4.0",
+    "prompt":      "0.2.13",
+    "serialport":  "1.4.0"
+  }
+}
